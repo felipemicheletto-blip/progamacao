@@ -59,7 +59,13 @@
     <button id="botao-clique">clque aqui!</button>
     
      </div>
-    </body>
+     <script>
+    const btn = document.getElementById('botao-clique');
+    const num = document.getElementById('numero-contador');
+    let c = 0;
+    btn.addEventListener('click', () => num.textContent = ++c);
+     </script>
+     
 
-
+</body>
 </html>
